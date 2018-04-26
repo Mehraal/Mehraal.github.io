@@ -1,0 +1,110 @@
+body {
+    margin: 0 auto;
+    border: 20px;
+    background-image: url("https://wallpapertag.com/wallpaper/full/9/b/2/302964-popular-white-texture-background-1920x1200.jpg")
+}
+
+h1 {
+    background-color: #08666d;
+    padding: 20px;
+    margin-right:  1150px;
+    margin-bottom: -20px;
+    margin-top: -20px;
+    height: 50px;
+    text-align: center;
+}
+
+header {
+    background-color: #ffffff;
+    margin-bottom: 40px;
+    float: top;
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    border: 1px solid #cccccc;
+}
+
+.topnav a {
+    float: right;
+    display: block;
+    margin: 0px 20px 20px 20px;
+}
+
+.container {
+    background-color: #e0d9d9;
+    text-align: left;
+    border: 1px solid #dddddd;
+    width: 960px;
+    height: 450px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    margin-left: 240px;
+    margin-bottom: 80px;
+}
+
+h2 {
+    font-size: 36px;
+    color: #08666d;
+    margin-left: 100px;
+    margin-bottom: 0 auto;
+    text-align: left;
+}
+
+img {
+    float: left;
+    width: 200px; 
+    height: 200px;
+    margin: 10px 20px 10px 20px;
+}
+
+p {
+    font-size: 20px;
+    color: #000000;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#copyright {
+    position: fixed;
+    background-color: #666666;
+    bottom: 0px;
+    width: 100%;
+    padding: 5px;
+    height: 40px;
+    border: 3px solid teal;
+    text-align: center;
+}
+
+#firstname {
+    width: 50%;
+    font-size: 26px;
+    float: center;
+    margin: 0px 10px 10px 20px;
+}
+
+#lastname {
+    width: 50%;
+    font-size: 26px;
+    float: center;
+    margin: 0px 10px 10px 20px;
+}
+
+#message {
+    width: 50%;
+    font-size: 26px;
+    float: center;
+    margin: 0px 10px 10px 20px;
+}
+
+#contact {
+    background-color: #e0d9d9;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
