@@ -1,7 +1,7 @@
 body {
     margin: 0 auto;
     border: 20px;
-    background-image: url("https://wallpapertag.com/wallpaper/full/9/b/2/302964-popular-white-texture-background-1920x1200.jpg")
+    /* background-image: url("https://wallpapertag.com/wallpaper/full/9/b/2/302964-popular-white-texture-background-1920x1200.jpg") */
 }
 
 h1 {
@@ -17,7 +17,7 @@ h1 {
 header {
     background-color: #ffffff;
     margin-bottom: 40px;
-    float: top;
+    /* float: top; */
     padding: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: left;
@@ -30,7 +30,7 @@ header {
     margin: 0px 20px 20px 20px;
 }
 
-.container {
+/* .container {
     background-color: #e0d9d9;
     text-align: left;
     border: 1px solid #dddddd;
@@ -40,7 +40,7 @@ header {
     position: relative;
     margin-left: 240px;
     margin-bottom: 80px;
-}
+} */
 
 h2 {
     font-size: 36px;
@@ -100,6 +100,56 @@ p {
     background-color: #e0d9d9;
     text-align: center;
 }
+
+@media only screen and (max-width: 960px) {
+    body { background-color: #000000;
+
+    }
+
+    .wrapper {
+        width: 600px;
+    }
+    header {
+        background-color: #666666;
+    }
+    p {
+        color: white;
+    } 
+
+
+}
+@media only screen and (max-width: 768px) {
+    body { background-color: #000000;
+    
+    }
+    .wrapper {
+        width: 600px;
+    }
+    header {
+        background-color: #666666;
+    } 
+    p {
+        color: white;
+    } 
+    
+}
+@media only screen and (max-width: 640px) {
+    body { background-color: #000000;
+
+    }
+    .wrapper {
+        width: 500px;
+    }
+    header { 
+        background-color: #666666;
+    } 
+    p {
+        color: white;
+    } 
+
+}
+
+
 
 
 
