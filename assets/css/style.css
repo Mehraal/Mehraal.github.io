@@ -45,12 +45,41 @@ p {
     color: #ffffff;
     margin-top: 120px;
 }
-.col-md-4 {
+
+#email {
+    width: 50%;
+    margin-top: 80px;
+    margin-left: 250px;
+    font-size: 24px;
+    color: green;
+    text-align: center;
+    
+}
+
+#linkedin {
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 250px;
+    font-size: 24px;
+    color: blue;
+    text-align: center;
+    
+}
+
+#github {
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 250px;
+    font-size: 24px;
+    text-align: center;
+    
+}
+/* .col-md-4 {
     background-color: #a39c9c;
     margin: 60px;
     width: 50%;
     padding: 20px;
-    color:#000000;
+    color:#000000; */
 
 }
 
