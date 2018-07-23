@@ -17,7 +17,6 @@ header {
 .topnav a {
     float: right;
     color: #dac614;
-    /* display: block; */
     margin: 0 20px 0 20px;
     font-size: 24px;
 }
@@ -76,52 +75,64 @@ p {
 }
 
 
-@media only screen and (max-width: 960px) {
-    body { background-color: #000000;
-
+@media all and (max-width: 960px) {
+    body { 
+        width: 100%;
+        height: 100%;
     }
-    
     .wrapper {
         width: 600px;
     }
-    header {
-        background-color: #666666;
+    p {
+        color: white;
+    }
+    
+    .topnav a {
+       float: none;
+       width: 100%;
+       overflow: hidden;
+    }
+
+}
+
+@media all and (max-width: 768px) {
+    body { 
+        width: 100%;
+        height: 100%;
+    }
+    .wrapper {
+        width: 600px;
     }
     p {
         color: white;
     } 
-
-
-}
-@media only screen and (max-width: 768px) {
-    body { background-color: #000000;
     
+    .topnav a {
+        float: none;
+        width: 100%;
+        overflow: hidden;
+
     }
     
-    .wrapper {
-        width: 600px;
-    }
-    header {
-        background-color: #666666;
-    } 
-    p {
-        color: white;
-    } 
-    
 }
-@media only screen and (max-width: 640px) {
-    body { background-color: #000000;
 
+@media all and (max-width: 640px) {
+    body { 
+         width: 100%;
+         height: 100%;
     }
     .wrapper {
         width: 500px;
     }
-    header { 
-        background-color: #666666;
-    } 
     p {
         color: white;
     } 
+    
+    .topnav a {
+       float: none;
+       width: 100%;
+       overflow: hidden;
+    }
 
 }
 
